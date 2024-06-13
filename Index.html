@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form For Intership</title>
+</head>
+<body>
+    <header>Form For Intership</header><hr>
+    <form action="?submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Full Name " required><br>
+        <label for="Collegename">College Name:</label>
+        <input type="text" id="Collegename"placeholder="College Name"required="true"><br>
+        <label for="rollno">rollno:</label>
+        <input type="text" id="rollno"placeholder="College Roll Number"required=true><br>
+        <label for="year">year:</label>
+        <input type="text" id="year"placeholder="Which year"required="true"><br>
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills"placeholder="Skills"required="true"><br>
+        <label for="Number">Number:</label>
+        <input type="number" id="Number"placeholder="Contact Number"required="true"><br>
+        Resume: <input type="file" name="File" id="file"><br>
+        Like form: <input type="button" value="Yes" id="yes">
+        <input type="button"value="No" id="no"><br>
+        Gender : <br>
+        <label for="Male">Male:</label>
+        <input type="radio" name="gender" id="Male" value="male"><br>
+        <label for="Female">Female:</label>
+        <input type="radio" name="gender" id="Female" value="female"><br>
+        <label for="Other">Other:</label>
+        <input type="radio" name="gender" id="Other" value="other"><br>
+        Location<select name="Location" id="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Goa">Goa</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <input type="submit"value="submit">
+        
+
+        
+        
+    </form>
+</body>
+</html>
